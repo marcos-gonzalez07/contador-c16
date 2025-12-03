@@ -1,9 +1,12 @@
+import { useState } from "react";
+
 const Contador = () => {
-let numero = 1
+  const [numero, setNumero] = useState(0)
+//let numero = 1
 
 const sumar = () =>{
-    numero++
-    console.log(numero)
+    //numero++
+    setNumero(numero + 1)
 
 }
     return (
