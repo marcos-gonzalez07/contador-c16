@@ -1,4 +1,4 @@
-const Conceptos = (props) => {
+const Conceptos = ({codComision, tema, version}) => {
   return (
     <section>
       <h2>conceptos de react</h2>
@@ -19,7 +19,7 @@ const Conceptos = (props) => {
         automáticamente en la interfaz de usuario.
       </p>
       <div className="alert alert-info" role="alert">
-        Comisión: {props.codComision}
+        Comisión: {codComision} - Tema: {tema} Versión: {version}
       </div>
     </section>
   );

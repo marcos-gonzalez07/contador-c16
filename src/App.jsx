@@ -13,7 +13,7 @@ function App() {
       <main className = "container">
         <Teoria></Teoria>
         {/* <Teoria></Teoria> */}
-        <Conceptos codComision = {codComision}></Conceptos>
+        <Conceptos codComision = {codComision} tema ={'react'} version = {19}></Conceptos>
       </main>
     </>
   );
