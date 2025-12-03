@@ -1,7 +1,9 @@
+import Conceptos from "./components/Conceptos";
 import Teoria from "./components/Teoria";
 
 function App() {
   // aquí iria la lógica del componente
+    const codComision = 'web16 2025 módulo 2'
   return (
     // aqui también puedo agregar lógica, no es normal pero se puede agregar algo pequeño
     <>
@@ -11,6 +13,7 @@ function App() {
       <main className = "container">
         <Teoria></Teoria>
         {/* <Teoria></Teoria> */}
+        <Conceptos codComision = {codComision}></Conceptos>
       </main>
     </>
   );
